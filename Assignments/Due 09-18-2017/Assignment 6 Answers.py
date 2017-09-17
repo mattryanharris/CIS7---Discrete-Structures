@@ -1,13 +1,12 @@
 def intCheck():
 
-	loop = True
 
-	while loop:
+	while True:
 		attempt = raw_input("Enter a number: ")
 		try:
 			if attempt == 'q':
-				print("Program ended")
-				loop = False
+				print("\nProgram Ended\n")
+				exit()
 			number = int(attempt)
 			break
 		except ValueError:
@@ -19,6 +18,7 @@ def intCheck():
 
 
 def main():
-	intCheck()
+	while True:
+		intCheck()
 
 main()

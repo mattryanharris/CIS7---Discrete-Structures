@@ -1,6 +1,5 @@
 def intCheck():
 
-
 	while True:
 		attempt = raw_input("Enter a number: ")
 		try:

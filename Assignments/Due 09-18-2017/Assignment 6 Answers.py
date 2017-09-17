@@ -1,14 +1,21 @@
 def intCheck():
-	while True:
+
+	loop = True
+
+	while loop:
+		attempt = raw_input("Enter a number: ")
 		try:
-			number = int(input("Enter a number: "))
+			if attempt == 'q':
+				print("Program ended")
+				loop = False
+			number = int(attempt)
 			break
-		except:
-			print("That's not a valid option!")
+		except ValueError:
+			print("\nThat's not a valid option!  Enter a number!\n")
 	if (number % 2) == 0:
-		print("The number is even")
+		print("\nThe number is even\n")
 	else:
-		print("The number is odd")
+		print("\nThe number is odd\n")
 
 
 def main():

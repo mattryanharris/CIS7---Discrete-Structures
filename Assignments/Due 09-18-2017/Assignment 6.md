@@ -8,4 +8,4 @@ Due 9/18/2017
 	- [X]  Does not allow non-integer to be entered
 
 	- [X]  Upload your assignment to GitHub
-	- [ ]  Email james.wilson@rccd.edu with the url to the source code on GitHub
+	- [X]  Email james.wilson@rccd.edu with the url to the source code on GitHub

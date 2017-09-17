@@ -7,5 +7,5 @@ Due 9/18/2017
 	- [ ]  Allows the user to enter more integer or exit if the user enters "q"
 	- [X]  Does not allow non-integer to be entered
 
-	- [ ]  Upload your assignment to GitHub
+	- [X]  Upload your assignment to GitHub
 	- [ ]  Email james.wilson@rccd.edu with the url to the source code on GitHub

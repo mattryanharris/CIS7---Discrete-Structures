@@ -14,12 +14,12 @@ def squareChecker(number):
 
 def main():
 	while True:
-		number = raw_input("Enter a number: ")
+		number = raw_input("\nEnter a number: ")
 		try:
 			number = int(number)
 			break
 		except ValueError:
-			print("\nThat's not a valid option!  Enter a number!\n")
+			print("\nThat's not a valid option!  Enter a number!")
 	squareChecker(number)
 
 main()

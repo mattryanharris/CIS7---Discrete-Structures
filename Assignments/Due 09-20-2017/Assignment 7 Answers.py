@@ -7,9 +7,11 @@ def squareChecker(number):
 
 	if (number % simplifiedN) == 0 :
 		print("\nIt's a perfect square\n")
+		return True
 
 	else:
 		print("\nIt's not a perfect square\n")
+		return False
 
 
 def main():

@@ -44,7 +44,7 @@ def main():
 	elif(userPrompt < result):
 		print("\nYou chose a number too low!\n")
 	elif(userPrompt == result):
-		print("\nCongrats!  You chose the right number!")
+		print("\nCongrats!  You chose the right number!\n")
 
 	print("There are " + str(result) + " prime numbers in between 1 and " + str(number) + "\n")
 

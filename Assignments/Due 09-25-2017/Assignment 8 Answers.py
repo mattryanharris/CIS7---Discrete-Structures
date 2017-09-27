@@ -19,10 +19,35 @@ def guessGame(number):
 
 	return test
 
+
+def guessPrompt(number):
+	while True:
+		attempt = raw_input("\nHow many prime numbers are between 1 and " + str(number) + ": ")
+		try:
+			if attempt == 'q':
+				print("\nProgram Ended\n")
+				exit()
+			number = int(attempt)
+			return number
+			break
+		except ValueError:
+			print("\nThat's not a valid option!  Enter a number!\n")
+	
+
 def main():
 	number = input("\nEnter a number: ")
-	result = guessGame(number)
-	print("\nThere are " + str(result) + " prime numbers in between 1 and " + str(number) + "\n")
+	result = guessGame(number)	
+	userPrompt = guessPrompt(number)
+
+	if(userPrompt > result):
+		print("\nYou chose a number too high!\n")
+	elif(userPrompt < result):
+		print("\nYou chose a number too low!\n")
+	elif(userPrompt == result):
+		print("\nCongrats!  You chose the right number!")
+
+	print("There are " + str(result) + " prime numbers in between 1 and " + str(number) + "\n")
+
 
 main()
 

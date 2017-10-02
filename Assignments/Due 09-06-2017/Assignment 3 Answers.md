@@ -1,4 +1,5 @@
 # CIS 7 - Discrete Structures - Assignment 3
+<<<<<<< HEAD
 
 ## 35
 
@@ -173,3 +174,7 @@ Q = P <-> A [more logic]
 ![relevant](https://media.giphy.com/media/GFZn0SpfS5Nrq/giphy.gif)
 
 	They're both liars, thus the gif. 
+=======
+These are the answers for this assignment
+
+>>>>>>> Added structure to answer portion of my markdown

@@ -17,10 +17,11 @@ def primeFinder(numOne, numTwo):
 		highNum = numTwo
 
 	answer = 0
-
+	
 	for x in xrange(1,highNum + 1):
 		if (numOne % x == 0) and (numTwo % x == 0):
 			answer = x
+
 	return answer
 def main():
 	numOne = ask()

@@ -1,11 +1,11 @@
 import math
 
 def tower():
-	n = 10
+	n = 5
 
-	a = "start"
-	b = "end"
-	c = "auxilary"
+	a = "A"
+	b = "B"
+	c = "C"
 
 	formula = math.pow(2, n) - 1
 
@@ -22,6 +22,5 @@ def move(n, start, end, aux):
 
 def main():
 	tower()
-
 
 main()

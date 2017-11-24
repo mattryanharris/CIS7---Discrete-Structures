@@ -1,10 +1,14 @@
-#1.	g(a) = (1,2)
+#1.	
+
+	g(a) = (1,2)
 
 	g(b) = (1,3)
 
 	g(c) = (2,3)
 
-#2.	a) Yes the graph is simple because there are no parallel looping sides
+#2.	
+
+	a) Yes the graph is simple because there are no parallel looping sides
 
 	b) No, the graph is not complete because you cannot connect any node with ever other node
 
@@ -18,7 +22,9 @@
 
 	g) Yes you can remove a few arcs to make the graph not connected (ex. a2, a6)
 
-#5.	See Drawings for Assignment 18 folder...
+#5.	
+
+![](https://i.imgur.com/oTd1jRr.png)
 
 #9.	
 
@@ -49,12 +55,6 @@
 	All nodes in the graph are connected which means the matrix only has 0s going down the diagonal with 1s everywhere else
 
 #65.	
-	
-	5.
-
-![](https://i.imgur.com/oTd1jRr.png)
-
-	65.
 
 ![](https://i.imgur.com/z0okI1A.png)
 

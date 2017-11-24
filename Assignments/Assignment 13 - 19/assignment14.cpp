@@ -48,7 +48,7 @@ int main()
 }
 
 
-void initialization(int num, stack <int> &temp)		//recursive initialization
+void initialization(int num, stack <int> &temp)
 {
 	if (num == 0) return;
 	else

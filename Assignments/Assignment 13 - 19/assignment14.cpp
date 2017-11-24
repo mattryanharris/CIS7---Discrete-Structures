@@ -101,5 +101,5 @@ void displaystack(stack<int> stack)	{
 		cout << stack.top() << " ";
 		stack.pop();
 	}
-	cout << endl;
+	cout << endl << endl;
 }

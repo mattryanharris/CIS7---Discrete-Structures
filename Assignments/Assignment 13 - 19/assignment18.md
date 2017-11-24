@@ -52,11 +52,11 @@
 	
 	5.
 
-	[](https://i.imgur.com/oTd1jRr.png)
+	![](https://i.imgur.com/oTd1jRr.png)
 
 	65.
 
-	[](https://i.imgur.com/z0okI1A.png)
+	![](https://i.imgur.com/z0okI1A.png)
 
 #71.	
 	
